@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.panel{
+    display: flex;
+}
+
+.contaner .panel:nth-child(1){
+    background-image: url("../img/1.jpg");
+}
+.contaner .panel:nth-child(2){
+    background-image: url("../img/2.jpg");
+}
+.contaner .panel:nth-child(3){
+    background-image: url("../img/3.jpg");
+}
+.contaner .panel:nth-child(4){
+    background-image: url("../img/4.jpg");
+}
+.contaner .panel:nth-child(5){
+    background-image: url("../img/5.jpg");
+}
